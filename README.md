@@ -5,12 +5,15 @@
 					|   Every thing is explained very well in Thesis Report ;-)       |
 											
 ----------------------------------------------------------------------------------------------------
+# Master Thesis Report : [Click Here : University of Stuttgart Webpage](https://elib.uni-stuttgart.de/handle/11682/13880)
+
+# Master Thesis Implementation Video Guide : [Click here : Youtube Link](https://www.youtube.com/@_vin8/videos)
 
 # Docker Hub - Image
 
 Openpose work is pushed to Docker Hub in Docker Image form : https://hub.docker.com/r/vin8/openpose_vin       
 
-
+---
 
 # Connecting to Robot.
 ```
@@ -139,8 +142,18 @@ openpose_docker@shell:~# rosrun ros_openpose gesture_ctrl.py
 ----------------------------------------------------------------------------------------------------
 
 
+## Some of the implementation pictures
 
+### Hector SLAM implementation
+![GitHub Logo](lab_map_2.png)
 
+---
+### Openpose Output as a Gesture
+![GitHub Logo](go_forward_gesture_right_hand.png)
+
+---
+### Autonomous Navigation CostMap
+![GitHub Logo](Navigation_stack_RVIZ.png)
 
 
 
