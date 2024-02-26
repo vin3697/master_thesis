@@ -7,7 +7,7 @@
 ----------------------------------------------------------------------------------------------------
 ### Master Thesis Report : [Click Here : University of Stuttgart Webpage](https://elib.uni-stuttgart.de/handle/11682/13880)
 
-### Master Thesis Implementation Video Guide : [Click here : Youtube Link](https://www.youtube.com/@_vin8/videos)
+### Master Thesis Implementation Video Guide : [Click Here : Youtube Link](https://www.youtube.com/@_vin8/videos)
 
 # Docker Hub - Image
 
