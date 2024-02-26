@@ -1,0 +1,20 @@
+digraph G {
+"base_link" -> "main_cam"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"footprint" -> "base_link"[label=" Broadcaster: /tb_control\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"odom" -> "footprint"[label=" Broadcaster: /tb_control\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "laser_frame"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "tube_link"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"map" -> "odom"[label=" Broadcaster: /amcl\nAverage rate: 7.905\nBuffer length: 4.933\nMost recent transform: 1691403706.805\nOldest transform: 1691403701.872\n"];
+"base_link" -> "servo_neck_joint"[label=" Broadcaster: /tb_control\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "servo_ext1_joint"[label=" Broadcaster: /tb_control\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "servo_ext2_joint"[label=" Broadcaster: /tb_control\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "caster_link"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10.2\nBuffer length: 5.0\nMost recent transform: 1691403705.005\nOldest transform: 1691403700.005\n"];
+"caster_link" -> "caster_wheel_link"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10.2\nBuffer length: 5.0\nMost recent transform: 1691403705.005\nOldest transform: 1691403700.005\n"];
+"tube_link" -> "display_link"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10.2\nBuffer length: 5.0\nMost recent transform: 1691403705.005\nOldest transform: 1691403700.005\n"];
+"base_link" -> "wheel_left_link"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10.2\nBuffer length: 5.0\nMost recent transform: 1691403705.005\nOldest transform: 1691403700.005\n"];
+"base_link" -> "wheel_right_link"[label=" Broadcaster: /robot_state_publisher\nAverage rate: 10.2\nBuffer length: 5.0\nMost recent transform: 1691403705.005\nOldest transform: 1691403700.005\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1691403705.046442"[ shape=plaintext ] ;
+}->"map";
+}
